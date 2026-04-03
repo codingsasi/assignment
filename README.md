@@ -13,21 +13,20 @@ Full-stack marketplace: user registration, listings by category, shopping cart, 
 
 ## Setup
 
-1. Create the database and tables:
+1. Clone this repo.
+```
+git clone https://github.com/codingsasi/assignment.git
+```
+2. Create the database and tables
 
+Either using docker:
 ```bash
-mysql -u root -p < sql/schema.sql
+docker compose up -d
 ```
 
 Or import `sql/database.sql` in phpMyAdmin.
 
-2. Configure the database connection via environment variables (optional). Defaults:
-
-- `DB_HOST` `127.0.0.1`
-- `DB_PORT` `3306`
-- `DB_NAME` `marketplace`
-- `DB_USER` `root`
-- `DB_PASS` (empty)
+Admin default password is "password"
 
 3. Run the app from this directory:
 
@@ -39,8 +38,5 @@ Open `http://localhost:8080/`.
 
 4. **MySQL in Docker (if not using xamp/wamp):**
   
-```bash
-docker compose up -d
-```
 
 Then run PHP on your machine with the defaults above (`DB_HOST=127.0.0.1`, port `3306`).
