@@ -3,7 +3,7 @@
 Full-stack marketplace: user registration, listings by category, shopping cart, checkout, order history, and an admin area for listings, orders.
 
 **Student:** Abhai Sasidharan  
-**Course:** COSC 2956 W02
+**Course:** COSC 2956 W02  
 **Student ID:** 5147016
 ## Tech Stack
 
